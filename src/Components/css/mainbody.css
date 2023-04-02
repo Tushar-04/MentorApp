@@ -38,7 +38,13 @@
 .nav-item {
     padding: 3px;
     text-align: center;
+    font-size: medium;
+    font-weight: bold;
     border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+.nav-item-active {
+    color: blue;
 }
 
 .nav-item:hover {
@@ -47,5 +53,18 @@
 
 .right-main {
     width: 100%;
+    height: 100vh;
     padding-left: 5vw;
+    overflow: scroll;
+}
+
+@media (max-width: 1024px) {
+    .left-nav {
+        width: 20vw;
+    }
+
+    .mentor-profile-img {
+        height: 80px;
+        width: 80px;
+    }
 }

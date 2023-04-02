@@ -34,9 +34,9 @@ export default function MainBody() {
                     <img src={ProfileImage} alt="" className="mentor-profile-img" />
                     <div className="mentor-profile-name">{MentorName}</div>
                 </div>
-                <div className="manage-students nav-item" onClick={changeSecManage}>Manage Students</div>
-                <div className="update-marks nav-item" onClick={changeSecMarks}>Update Marks</div>
-                <div className="update-marks nav-item" onClick={changeSecView}>View all Students</div>
+                <div className={`nav-item ${(secManage)?("nav-item-active"):null}`} onClick={changeSecManage}>Manage Students</div>
+                <div className={`nav-item ${(secMarks)?("nav-item-active"):null}`} onClick={changeSecMarks}>Update Marks</div>
+                <div className={`nav-item ${(secView)?("nav-item-active"):null}`} onClick={changeSecView}>View all Students</div>
             </div>
             <div className="right-main">
                 {(secManage) ? (
