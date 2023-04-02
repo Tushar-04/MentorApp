@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MentorApp/static/css/main.cb680f80.css",
+    "main.js": "/MentorApp/static/js/main.513a83b1.js",
+    "static/js/787.2d20a1e5.chunk.js": "/MentorApp/static/js/787.2d20a1e5.chunk.js",
+    "index.html": "/MentorApp/index.html",
+    "main.cb680f80.css.map": "/MentorApp/static/css/main.cb680f80.css.map",
+    "main.513a83b1.js.map": "/MentorApp/static/js/main.513a83b1.js.map",
+    "787.2d20a1e5.chunk.js.map": "/MentorApp/static/js/787.2d20a1e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb680f80.css",
+    "static/js/main.513a83b1.js"
+  ]
+}
