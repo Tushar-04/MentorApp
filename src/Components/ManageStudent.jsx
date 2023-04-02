@@ -77,7 +77,7 @@ export default function ManageStudent(props) {
                         </div>
                     ))}
                 </div>
-                <button className='save-btn' onClick={handleSaveStudent}>Save</button>
+                <div className="saveBtn"><button className='save-btn' onClick={handleSaveStudent}>Save</button></div>
             </div>
             <h2>Available Students:</h2>
             <div className="students-list">
