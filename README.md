@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+## Project is deployed at: https://tushar-04.github.io/MentorApp/
+
+## Backend Repo Link: https://github.com/Tushar-04/MentorApp-backend
 
 ## Available Scripts
 
